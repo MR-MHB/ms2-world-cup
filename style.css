@@ -171,7 +171,7 @@ header .links>i {
     padding-right: 30px;
 }
 
-set-img {
+.imgs {
     width: 252px;
     height: 56.18px;
     display: grid;
@@ -181,7 +181,7 @@ set-img {
 }
 
 
-set-img>div>img {
+.imgs>div>img {
     width: 93.04px;
     height: 54.42px;
 }
