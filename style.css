@@ -321,11 +321,11 @@ footer hr {
 
     }
 
-    .for-box {
+    .for-content {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .fpr-box .main-content {
+    .for-content .main-content {
         border: 1px solid rgba(128, 128, 128, 0.319);
         border-radius: 10px;
         padding: 10px;
@@ -336,4 +336,92 @@ footer hr {
         padding-top: 9px;
     }
 
+}
+
+/* responsive for tablet */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    header {
+        margin: 50px;
+    }
+
+    .class-for-header {
+        padding: 28px 30px;
+        text-align: left;
+        margin-bottom: 30px;
+
+
+    }
+
+
+
+    .tittle-part {
+        font-size: 40px;
+
+    }
+
+    .header-details {
+        font-size: 14px;
+        margin-bottom: 20px;
+
+
+
+    }
+
+
+    .header-for-banner img {
+        width: 233px;
+        height: 245px;
+    }
+
+
+
+
+    .for-main {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-top: 0;
+        margin: 70px 50px;
+
+    }
+
+    .option-item {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        height: auto;
+        background-color: white;
+        flex-basis: auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+
+    }
+
+    .option-item .for-button {
+        border: 1px solid rgba(128, 128, 128, 0.52);
+        padding: 17px 28px;
+        margin: 20px;
+    }
+
+    .for-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .for-content .main-content {
+        border: 1px solid rgba(128, 128, 128, 0.319);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .viewall {
+        display: block;
+    }
+
+    .some-link {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
 }
