@@ -251,3 +251,89 @@ footer hr {
 
     padding-bottom: 30px;
 }
+
+/* responsive making */
+@media only screen and (max-width:688px) {
+
+
+    header {
+
+        flex-direction: column;
+        margin: 40px 20px;
+        align-items: center;
+
+
+    }
+
+    .extra-half {
+        width: 70%;
+    }
+
+    .class-for-header {
+        padding: 28px 53px;
+        text-align: center;
+
+
+
+    }
+
+    .header-for-banner {
+        align-self: center;
+        text-align: center;
+    }
+
+    .tittle-part {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .header-details {
+        font-size: 14px;
+        width: 258px;
+        height: 40px;
+
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+
+    }
+
+
+    .header-for-banner img {
+        width: 233px;
+        height: 245px;
+    }
+
+    .for-main {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-top: 0;
+
+    }
+
+    .option-item {
+        background-color: white;
+    }
+
+    .option-item .for-button {
+        border: 1px solid rgba(128, 128, 128, 0.52);
+
+    }
+
+    .for-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fpr-box .main-content {
+        border: 1px solid rgba(128, 128, 128, 0.319);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .some-link a {
+        display: block;
+        padding-top: 9px;
+    }
+
+}
