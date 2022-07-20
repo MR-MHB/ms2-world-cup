@@ -57,3 +57,158 @@ header {
     color: #ffffff;
     border-radius: 5px;
 }
+
+/* header animation part  */
+@keyframes head-anim {
+    0% {
+
+
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+
+
+        transform: translate(2px, 0px);
+
+    }
+
+    80% {
+
+
+        transform: translate(4px, 0px);
+    }
+
+
+    100% {
+
+
+        transform: translate(10px, 0px);
+
+    }
+}
+
+header .links>i {
+    animation: head-anim 1s ease-in-out 1s infinite normal;
+}
+
+/* main container  */
+.for-main {
+    display: flex;
+    margin: 130px 140px;
+    justify-content: center;
+
+}
+
+/* options */
+.option-item {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 0px 24px;
+    flex-basis: 312px;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+
+}
+
+.for-button {
+    padding: 17px 39px;
+
+    background-color: white;
+    margin: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.for-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.another-button {
+    background-color: #DD0000;
+
+}
+
+.another-button a {
+    color: white;
+}
+
+/* content-box */
+
+.for-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.button-for-content {
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.description h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #161616;
+}
+
+.duration {
+    color: #161616;
+    opacity: 70%;
+}
+
+.duration span {
+    padding-right: 30px;
+}
+
+set-img {
+    width: 252px;
+    height: 56.18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+}
+
+
+set-img>div>img {
+    width: 93.04px;
+    height: 54.42px;
+}
+
+.vs {
+    width: 20px;
+    margin: 0 auto;
+}
+
+.match-des {
+    text-align: center;
+}
+
+.main-content {
+    padding: 53px 30px;
+    border: 1px solid #E8E8E8;
+}
+
+.match-des h4 {
+    font-size: 20px;
+}
+
+.match-des p {
+    color: #4D4D4D;
+}
+
+.viewall {
+    margin: 70px;
+    display: none;
+}
