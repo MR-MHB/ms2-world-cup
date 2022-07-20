@@ -212,3 +212,42 @@ set-img>div>img {
     margin: 70px;
     display: none;
 }
+
+/* all styles about footer 
+ */
+footer {
+    background-color: #161616;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.footer-tittle {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+footer hr {
+    opacity: 10%;
+    width: 1320px;
+
+}
+
+
+
+.some-link a,
+.social-site a {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 16px;
+    padding: 0px 20px;
+    font-weight: 500;
+}
+
+.social-site,
+.some-link {
+
+    padding-bottom: 30px;
+}
